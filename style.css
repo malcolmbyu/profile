@@ -1,0 +1,109 @@
+/*now Play with the box model (margin/border/padding
+  /width/height) by splitting your profile information
+  into different <div> tags.*/
+
+/*background-color, font-family, color, font-size and
+line-height for the <body>*/
+body {
+  background-color: rgb(249, 252, 252);
+  font-family:"Georgia";
+  font-size:25px;
+  line-height: normal;
+}
+
+/*Choose a nice color, font-family, font-size and line-height
+(<h1>, <h2>, <h3>) Hint: small headers are more elegant.*/
+h1 {
+  color: rgb(0,0,0);
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 40px;
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+h2 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  font-weight: 100
+}
+
+h3 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:20px;
+}
+
+p {
+  font-family: 'Patrick Hand', cursive;
+  font-variant: small-caps;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: justify-all;
+}
+
+/*Change color & text-decoration of all links
+Add hover effects using the pseudo-class a:hover.*/
+link {
+  text-indent: 1px;
+  text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.btn {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-top: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(217,217,217)
+}
+
+.list-inline {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list-inline a{
+  text-decoration: none
+}
+
+.card {
+  background: #F5EEE6;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+/**/
